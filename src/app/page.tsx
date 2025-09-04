@@ -12,8 +12,7 @@ export default function Home() {
      <ScrollReset>
     <main className="bg-white text-gray-800">
       {/* Hero Section */}
-      
-      <section id="hero" className="max-w-6xl mx-auto px-6 py-12 grid md:grid-cols-2 gap-8 items-center">
+      <section id="hero" className="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         
         <div>
           <ScrollReveal>
@@ -50,9 +49,9 @@ export default function Home() {
            </div>
 
         </div>
-       <ScrollReveal>
-         <div className=" rounded-xl ml-20 h-100 flex items-center justify-center relative">
-          <Image src="/kids.jpg" alt="Mindery Kids Illustration" fill className="rounded-2xl object-cover" />
+        <ScrollReveal>
+          <div className="rounded-xl ml-0 md:ml-20 h-64 md:h-100 flex items-center justify-center relative w-full">
+            <Image src="/kids.jpg" alt="Mindery Kids Illustration" fill className="rounded-2xl object-cover w-full h-full" />
          
            <div className="absolute bottom-4 left-4 md:bottom-16 md:-left-6 bg-white rounded-xl shadow-2xl p-4 w-56 sm:w-60 hidden sm:block transform -rotate-6 hover:rotate-0 transition-transform duration-300">
                 <h3 className="text-sm font-semibold font-primary mb-2">Todays Journey</h3>
@@ -70,12 +69,12 @@ export default function Home() {
 
       {/* Why Section */}
 <ScrollReveal>
-      <section id="why" className="max-w-6xl mx-auto px-6 py-12">
-        <div className="max-w-[50vw] text-left pr-3 ">
+      <section id="why" className="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+        <div className="max-w-full md:max-w-[50vw] text-left pr-2 sm:pr-3">
         <h2 className="text-3xl font-bold text-left">Why Mindery Kids?</h2>
         <p className=" text-gray-600 mt-4">Children learn best through play and stories. Our sessions blend gentle breathing, guided imagery, and music to make mindfulness enjoyable and effective.</p>
         </div>
-        <div className="grid md:grid-cols-3 gap-6 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
           {[
             {note:"Story Meditations", title: "Guided Adventures", desc: "Stories and activities that teach belly breathing, kindness, and gratitude." },
             {note:"Anytime Calm", title: "Tools for Big Feelings", desc: "Quick resets kids can use when upset, nervous, or restless." },
@@ -93,12 +92,12 @@ export default function Home() {
 
       {/* Programs Section */}
      <ScrollReveal>  
-      <section id="programs" className="max-w-6xl mx-auto px-6 py-12">
+      <section id="programs" className="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
         <h2 className="text-4xl font-bold text-left">Programs for Every Age</h2>
         <p className="text-gray-600 mt-5">Three to five-minute stories with animal friends that teach belly-breathing, noticing sounds, and gentle sketching.</p>
-        <div className="grid md:grid-cols-1 gap-8 mt-6">
-          <div className="space-y-3 md:flex md:gap-6 md:items-center">
-            <Image src="/kids1.jpg" alt="Kids" width={500} height={400} className="rounded-xl object-cover" />
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-8 mt-6">
+          <div className="space-y-3 md:flex md:gap-6 md:items-center flex-col md:flex-row">
+            <Image src="/kids1.jpg" alt="Kids" width={500} height={400} className="rounded-xl object-cover w-full md:w-[500px] h-auto" />
             <div>
             <h3 className="font-semibold text-xl">Little Explorers (4–6)</h3>
             <p className="text-gray-600 mt-4">Short fun stories with breathing, relaxation games, and gentle practices.</p>
@@ -173,11 +172,11 @@ export default function Home() {
 
       {/* Features Section */}
       <ScrollReveal>
-      <section id="features" className="max-w-6xl mx-auto px-6 py-12  rounded-xl">
-        <div className="max-w-[50vw] text-left pr-3 ">
+      <section id="features" className="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12 rounded-xl">
+        <div className="max-w-full md:max-w-[50vw] text-left pr-2 sm:pr-3">
         <h2 className="text-3xl font-bold text-left">Build For Kids, Loved by Parents</h2>
         </div>
-        <div className="grid md:grid-cols-3 gap-6 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
           {[
             {title: "Ad-Free & Safe", desc: "Child-first design with privacy controls and no external ads." },
             {title: "Rewards that Motivate", desc: "Stars,badges,and gentle streaks encourages healthy habits-no pressure." },
@@ -197,54 +196,53 @@ export default function Home() {
       </ScrollReveal>
 
       {/* For Parents Section */}
-      <section id="parents" className="max-w-6xl mx-auto px-6 py-16 ">
-        <div className="max-w-[50vw] text-left pr-3 ">
+      <section id="parents" className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+        <div className="max-w-full md:max-w-[50vw] text-left pr-2 sm:pr-3">
         <h2 className="text-3xl font-bold text-left">Why Choose Mindery Kids Over Other</h2>
         </div>
-        <div>
-          <table className="table-auto border border-gray-200 w-full mt-8 rounded-lg overflow-hidden shadow-lg">
-            <thead>
-              <tr  >
-                <th className="text-center font-bold text-purple-800 p-4">Features</th>
-                <th className="text-center font-bold text-purple-800 p-4">Mindery Kids</th>
-                <th className="text-center font-bold text-purple-800 p-4">Other Apps</th>
-              </tr>
-            </thead>
-          <tbody>
-          <tr>
-            <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">Child-Friendly Guided Meditations</td>
-            <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">✅ Story-based, fun & short</td>
-            <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">❌ Generic adult content</td>
+        <div className="overflow-x-auto">
+      <table className="table-auto border border-gray-200 w-full mt-8 rounded-lg overflow-hidden shadow-lg min-w-[600px]">
+        <thead>
+          <tr  >
+            <th className="text-center font-bold text-purple-800 p-4">Features</th>
+            <th className="text-center font-bold text-purple-800 p-4">Mindery Kids</th>
+            <th className="text-center font-bold text-purple-800 p-4">Other Apps</th>
           </tr>
-          <tr>
-            <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">Safe &amp; Ad-Free Environment</td>
-            <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">✅ 100% secure for kids</td>
-            <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">❌ Ads &amp; distractions</td>
-          </tr>
-            <tr>
-            <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">Age-Specific Programs</td>
-            <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">✅ Tailored for 4-14</td>
-            <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">❌ One-size-fits-all</td>
-          </tr>
-          <tr>
-            <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">Parents &amp; Teachers Support</td>
-            <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">✅ Guides, printables, progress insights</td>
-            <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">❌ Limited or none </td>
-          </tr>
-        </tbody>
-          </table>
-        </div>
-        
+        </thead>
+      <tbody>
+      <tr>
+        <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">Child-Friendly Guided Meditations</td>
+        <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">✅ Story-based, fun & short</td>
+        <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">❌ Generic adult content</td>
+      </tr>
+      <tr>
+        <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">Safe &amp; Ad-Free Environment</td>
+        <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">✅ 100% secure for kids</td>
+        <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">❌ Ads &amp; distractions</td>
+      </tr>
+        <tr>
+        <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">Age-Specific Programs</td>
+        <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">✅ Tailored for 4-14</td>
+        <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">❌ One-size-fits-all</td>
+      </tr>
+      <tr>
+        <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">Parents &amp; Teachers Support</td>
+        <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">✅ Guides, printables, progress insights</td>
+        <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">❌ Limited or none </td>
+      </tr>
+    </tbody>
+      </table>
+    </div>
       </section>
       
 
       {/* Pricing Section */}
       <ScrollReveal>
-      <section id="features" className="max-w-6xl mx-auto bg-gray-100 py-12 rounded-xl mb-12">
-        <div className="max-w-5xl mx-auto px-6 text-center">
+      <section id="features" className="max-w-6xl mx-auto bg-gray-100 py-8 sm:py-12 rounded-xl mb-12 px-4 sm:px-6">
+        <div className="max-w-5xl mx-auto px-0 sm:px-6 text-center">
           <h2 className="text-2xl font-bold">Choose Your Plan</h2>
           <p className="text-gray-700 text-sm mt-3">Start free, cancel anytime, No hidden charges.</p>
-          <div className="grid md:grid-cols-3 gap-6 mt-7">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-7">
             {[
               { title: "Starter",
                 tag:"Perfect for new employers", 
@@ -285,11 +283,13 @@ export default function Home() {
  
        {/* What Section */}
        <ScrollReveal>
-       <section id="what" className="max-w-6xl mx-auto mt-12">
-       <div className=" px-6 py-12 border border-gray-100 rounded-xl shadow-md hover:shadow-lg bg-gray-50">
+       <section id="what" className="max-w-6xl mx-auto mt-12 px-4 sm:px-6">
+      <div className="px-8 py-8 sm:py-12 border border-gray-100 rounded-xl shadow-md hover:shadow-lg bg-gray-50">
         <div>
-            <h3 className="font-semibold text-3xl">Parents &amp; Teacher Hub</h3>
-            <p className="text-gray-600 mt-4 max-w-[35vw] ">Practical guides, printable routine, progress insights so you can support mindfulness at home and and school.</p>
+            <h3 className="font-semibold  text-3xl">Parents &amp; Teacher Hub</h3>
+            <p className="text-gray-600 mt-4 max-w-full md:max-w-[35vw] ">
+              Practical guides, printable routine, progress insights so you can support mindfulness at home and and school.
+            </p>
               <div className="flex gap-3 mt-3 flex-wrap">
                {[
                  { label: "Download Starter Kit", emoji: "📥" },
@@ -312,11 +312,11 @@ export default function Home() {
 
       {/* Says Section */}
       <ScrollReveal>
-      <section id="says" className="max-w-6xl mx-auto mt-12 px-6 py-12">
-        <div className="max-w-[50vw] text-left pr-3 ">
+      <section id="says" className="max-w-6xl mx-auto mt-12 px-4 sm:px-6 py-8 sm:py-12">
+        <div className="max-w-full md:max-w-[50vw] text-left pr-2 sm:pr-3 ">
         <h2 className="text-3xl font-bold text-left">What Families Say</h2>
         </div>
-        <div className="grid md:grid-cols-3 gap-6 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
           {[
             {title: "★★★★★", desc: `Bedtime is finally peaceful. My 6-year-old asks for the Star Boat story every night.`, tag: "— Priya, Mom of 6-year old."},
             {title: "★★★★★", desc: "The 5-minute rest before homework has been a game changer for focus.", tag: "— Ravi, Dad of 10-year old."},
@@ -334,7 +334,7 @@ export default function Home() {
 
       {/* FAQ */}
 
-      <section id="faq" className="max-w-6xl mx-auto px-6 py-12">
+      <section id="faq" className="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
         <h2 className="text-3xl font-bold">Frequently Asked Questions</h2>
         <div className="mt-8">
           {[
@@ -366,11 +366,11 @@ export default function Home() {
 
       {/* start */}
       <ScrollReveal>
-      <section id="start" className="max-w-6xl mx-auto mt-12 px-6 py-12 rounded-xl border border-gray-100 shadow-md text-center">
-        <div className="max-w-[50vw] text-left pr-3 ">
+      <section id="start" className="max-w-6xl mx-auto mt-12 px-4 sm:px-6 py-8 sm:py-12 rounded-xl border border-gray-100 shadow-md text-center">
+        <div className="max-w-full md:max-w-[50vw] text-left pr-2 sm:pr-3">
         <h2 className="text-3xl font-bold text-left">Start Your Child Mindfulness Journey</h2>
         <p className="mt-2 text-gray-600">Try it free. Build calm, focus, and kindness—one small practice a day.</p>
-         <div className="flex gap-4 mt-6">
+         <div className="flex flex-col sm:flex-row gap-4 mt-6">
             <Button className="font-semibold">Create Account</Button>
             <Button variant="green" className="font-semibold">Download App</Button>
           </div>
@@ -381,33 +381,29 @@ export default function Home() {
 
 
       {/* Footer */}
-      <footer className=" py-8 mt-12">
-        <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+      <footer className="py-8 mt-12">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-2">
-                  <Image src="/logo.png" alt="Topmind Care Logo" width={32} height={32} />
-                  <h1 className="text-2xl font-bold text-violet-900">Topmind Care</h1>
-                  
-                  
-                </div>
-                
-
-        <div className="flex flex-col  md:mt-0 items-left">
-          <p>Contact</p>
-          <div className="flex gap-6 mt-4 md:mt-0">
-            <a href="#" className="text-purple-500 hover:text-purple-600">Instagram</a>
-            <a href="#" className="text-purple-500 hover:text-purple-600">YouTube</a>
-            <a href="#" className="text-purple-500 hover:text-purple-600">X</a>
+            <Image src="/logo.png" alt="Topmind Care Logo" width={32} height={32} />
+            <h1 className="text-2xl font-bold text-violet-900">Topmind Care</h1>
           </div>
+          <div className="flex flex-col md:mt-0 items-start">
+            <p className="sm:text-center">Contact</p>
+            <div className="flex gap-6 mt-4 md:mt-0">
+              <a href="#" className="text-purple-500 hover:text-purple-600">Instagram</a>
+              <a href="#" className="text-purple-500 hover:text-purple-600">YouTube</a>
+              <a href="#" className="text-purple-500 hover:text-purple-600">X</a>
+            </div>
           </div>
-          <div className="flex flex-col md:mt-0 items-left">
-            <p>Legal</p>
-          <div className="flex gap-6 mt-4 md:mt-0">
-            <a href="#" className="text-purple-500 hover:text-purple-600">Privacy</a>
-            <a href="#" className="text-purple-500 hover:text-purple-600">Terms</a>
-          </div>
+          <div className="flex flex-col md:mt-0 items-start">
+            <p className="sm:text-center">Legal</p>
+            <div className="flex gap-6 mt-4 md:mt-0">
+              <a href="#" className="text-purple-500 hover:text-purple-600">Privacy</a>
+              <a href="#" className="text-purple-500 hover:text-purple-600">Terms</a>
+            </div>
           </div>
         </div>
-        <p className="max-w-6xl mx-auto pl-6 text-gray-500">Mindfulness for growing minds.@2025 Mindery kids</p>
+        <p className="max-w-6xl mx-auto pl-4 sm:pl-6 text-gray-500 text-center">Mindfulness for growing minds.@2025 Mindery kids</p>
       </footer>
     </main>
 

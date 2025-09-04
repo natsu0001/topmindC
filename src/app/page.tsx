@@ -366,7 +366,6 @@ export default function Home() {
       </section>
 
 
-
       {/* start */}
       <ScrollReveal>
       <section id="start" className="max-w-6xl mx-auto mt-12 px-6 py-12 rounded-xl border border-gray-100 shadow-md text-center">
@@ -381,9 +380,6 @@ export default function Home() {
         
       </section>
       </ScrollReveal>
-
-
-
 
 
       {/* Footer */}

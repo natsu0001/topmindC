@@ -54,7 +54,7 @@ export default function Home() {
           <Image src="/kids.jpg" alt="Mindery Kids Illustration" fill className="rounded-2xl object-cover" />
          
            <div className="absolute bottom-4 left-4 md:bottom-16 md:-left-6 bg-white rounded-xl shadow-2xl p-4 w-56 sm:w-60 hidden sm:block transform -rotate-6 hover:rotate-0 transition-transform duration-300">
-                <h3 className="text-sm font-semibold font-primary mb-2">Today's Journey</h3>
+                <h3 className="text-sm font-semibold font-primary mb-2">Todays Journey</h3>
                 <ul className=" text-sm text-gray-600">
                   <li>🐉 Dragon Breath (3 min)</li>
                   <li>🦋 Butterfly Body Scan (5 min)</li>
@@ -317,7 +317,7 @@ export default function Home() {
         </div>
         <div className="grid md:grid-cols-3 gap-6 mt-8">
           {[
-            {title: "★★★★★", desc: "Bedtime is finally peaceful. My 6-year-old asks for the Star Boat story every night.", tag: "— Priya, Mom of 6-year old."},
+            {title: "★★★★★", desc: `Bedtime is finally peaceful. My 6-year-old asks for the Star Boat story every night.`, tag: "— Priya, Mom of 6-year old."},
             {title: "★★★★★", desc: "The 5-minute rest before homework has been a game changer for focus.", tag: "— Ravi, Dad of 10-year old."},
             {title: "★★★★★", desc: "Our class uses the breathing game after lunch. Kids come back calm and ready.", tag: "— Anika, Grade 4 Teacher."},
           ].map((item, idx) => (

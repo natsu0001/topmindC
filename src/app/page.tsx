@@ -3,6 +3,7 @@ import ScrollReveal from "../components/ScrollReveal";
 import Image from "next/image";
 import { Button } from "../components/ui/button";
 import ScrollReset from '../components/ScrollReset';
+import FreeTrialModal from "@/components/FreeTrialModal";
 
 export default function Home() {
   
@@ -25,7 +26,7 @@ export default function Home() {
             Fun, story-based meditation that builds focus, kindness, and confidence. Safe, ad-free, and crafted with child development experts.
           </p>
           <div className="flex gap-4 mt-6">
-            <Button className="font-semibold">Start Free Trial</Button>
+            <FreeTrialModal />
             <Button variant="green" className="font-semibold">Explore Programs</Button>
           </div>
           <div className="flex gap-1 mt-5 flex-wrap">

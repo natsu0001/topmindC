@@ -310,8 +310,6 @@ export default function Home() {
        </ScrollReveal>
 
 
-
-
       {/* Says Section */}
       <ScrollReveal>
       <section id="says" className="max-w-6xl mx-auto mt-12 px-6 py-12">

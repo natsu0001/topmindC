@@ -317,7 +317,7 @@ export default function Home() {
         </div>
         <div className="grid md:grid-cols-3 gap-6 mt-8">
           {[
-            {title: "★★★★★", desc: "Bedtime is finally peaceful. My 6-year&#39;old asks for the Star Boat story every night.", tag: "— Priya, Mom of 6-year old."},
+            {title: "★★★★★", desc: "Bedtime is finally peaceful. My 6-year-old asks for the Star Boat story every night.", tag: "— Priya, Mom of 6-year old."},
             {title: "★★★★★", desc: "The 5-minute rest before homework has been a game changer for focus.", tag: "— Ravi, Dad of 10-year old."},
             {title: "★★★★★", desc: "Our class uses the breathing game after lunch. Kids come back calm and ready.", tag: "— Anika, Grade 4 Teacher."},
           ].map((item, idx) => (

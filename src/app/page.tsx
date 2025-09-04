@@ -43,7 +43,7 @@ export default function Home() {
                   <span className="text-xs text-gray-500 px-9">{tag.note}</span>
                   <div className="flex items-center gap-2 mt-1">
                   <span className="text-md ">{tag.emoji}</span>
-                  <span className="text-lg font-bold text-gray-800">{tag.label}</span>
+                  <span className="text-md font-bold text-gray-800">{tag.label}</span>
                   </div>
                 </div>
                ))}

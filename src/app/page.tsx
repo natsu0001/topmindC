@@ -320,9 +320,9 @@ export default function Home() {
         </div>
         <div className="grid md:grid-cols-3 gap-6 mt-8">
           {[
-            {title: "★★★★★", desc: `"Bedtime is finally peaceful. My 6-year-old asks for the Star Boat story every night."`, tag: "— Priya, Mom of 6-year old."},
-            {title: "★★★★★", desc: `"The 5-minute 'rest'before homework has been a game changer for focus."`, tag: "— Ravi, Dad of 10-year old."},
-            {title: "★★★★★", desc: `"Our class uses the breathing game after lunch. Kids come back calm and ready."`, tag: "— Anika, Grade 4 Teacher."},
+            {title: "★★★★★", desc: "Bedtime is finally peaceful. My 6-year-old asks for the Star Boat story every night.", tag: "— Priya, Mom of 6-year old."},
+            {title: "★★★★★", desc: "The 5-minute 'rest'before homework has been a game changer for focus.", tag: "— Ravi, Dad of 10-year old."},
+            {title: "★★★★★", desc: "Our class uses the breathing game after lunch. Kids come back calm and ready.", tag: "— Anika, Grade 4 Teacher."},
           ].map((item, idx) => (
             <div key={idx} className="p-6  rounded-xl shadow-md hover:shadow-lg transition">
               <h3 className="font-semibold text-lg text-black-600">{item.title}</h3>
@@ -416,7 +416,7 @@ export default function Home() {
         <p className="max-w-6xl mx-auto pl-6 text-gray-500">Mindfulness for growing minds.@2025 Mindery kids</p>
       </footer>
     </main>
-    
+
     </ScrollReset>
   );
 }

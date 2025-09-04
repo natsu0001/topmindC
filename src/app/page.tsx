@@ -77,7 +77,7 @@ export default function Home() {
         <div className="grid md:grid-cols-3 gap-6 mt-8">
           {[
             {note:"Story Meditations", title: "Guided Adventures", desc: "Stories and activities that teach belly breathing, kindness, and gratitude." },
-            {note:"Anytime Calm", title: "Tools for Big Feelings", desc: "Quick 'resets' kids can use when upset, nervous, or restless." },
+            {note:"Anytime Calm", title: "Tools for Big Feelings", desc: "Quick resets kids can use when upset, nervous, or restless." },
             {note:"Parent Hub", title: "Guides & Routines", desc: "Weekly tips, printable sheets, and simple practices for parents & teachers." },
           ].map((item, idx) => (
             <div key={idx} className="p-6  rounded-xl shadow-sm hover:shadow-md transition">

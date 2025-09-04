@@ -216,9 +216,9 @@ export default function Home() {
             <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">❌ Generic adult content</td>
           </tr>
           <tr>
-            <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">Safe & Ad-Free Environment</td>
+            <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">Safe &amp; Ad-Free Environment</td>
             <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">✅ 100% secure for kids</td>
-            <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">❌ Ads & distractions</td>
+            <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">❌ Ads &amp; distractions</td>
           </tr>
             <tr>
             <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">Age-Specific Programs</td>
@@ -226,8 +226,8 @@ export default function Home() {
             <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">❌ One-size-fits-all</td>
           </tr>
           <tr>
-            <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">Parents & Teachers Support</td>
-            <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">✅ Guides,printables,progress insights</td>
+            <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">Parents &amp; Teachers Support</td>
+            <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">✅ Guides, printables, progress insights</td>
             <td className="text-sm text-center align-middle border border-gray-100 px-4 py-3">❌ Limited or none </td>
           </tr>
         </tbody>
@@ -256,14 +256,14 @@ export default function Home() {
                  tag:"Unlock full potential", 
                  price: "₹299/mo", 
                  desc1: "✅Unlock meditations",
-                 desc2: "✅Sleep stories & calming music",
+                 desc2: "✅Sleep stories &amp; calming music",
                  desc3: "✅Printable guides for parent",
                  btn: "Upgrade Now" },
               { title: "Family", 
                 tag:"For multiple kids", 
                 price: "₹499/mo", 
                 desc1: "✅For 4 child profiles",
-                desc2: "✅Rewards & Streaks",
+                desc2: "✅Rewards &amp; Streaks",
                 desc3: "✅Classroom meditations pack",
                 btn: "Get Family Plan" },
             ].map((plan, idx) => (
@@ -287,7 +287,7 @@ export default function Home() {
        <section id="what" className="max-w-6xl mx-auto mt-12">
        <div className=" px-6 py-12 border border-gray-100 rounded-xl shadow-md hover:shadow-lg bg-gray-50">
         <div>
-            <h3 className="font-semibold text-3xl">Parents & Teacher Hub</h3>
+            <h3 className="font-semibold text-3xl">Parents &amp; Teacher Hub</h3>
             <p className="text-gray-600 mt-4 max-w-[35vw] ">Practical guides, printable routine, progress insights so you can support mindfulness at home and and school.</p>
               <div className="flex gap-3 mt-3 flex-wrap">
                {[
@@ -317,7 +317,7 @@ export default function Home() {
         </div>
         <div className="grid md:grid-cols-3 gap-6 mt-8">
           {[
-            {title: "★★★★★", desc: "Bedtime is finally peaceful. My 6-year-old asks for the Star Boat story every night.", tag: "— Priya, Mom of 6-year old."},
+            {title: "★★★★★", desc: "Bedtime is finally peaceful. My 6-year&#39;old asks for the Star Boat story every night.", tag: "— Priya, Mom of 6-year old."},
             {title: "★★★★★", desc: "The 5-minute rest before homework has been a game changer for focus.", tag: "— Ravi, Dad of 10-year old."},
             {title: "★★★★★", desc: "Our class uses the breathing game after lunch. Kids come back calm and ready.", tag: "— Anika, Grade 4 Teacher."},
           ].map((item, idx) => (

@@ -416,6 +416,7 @@ export default function Home() {
         <p className="max-w-6xl mx-auto pl-6 text-gray-500">Mindfulness for growing minds.@2025 Mindery kids</p>
       </footer>
     </main>
+    
     </ScrollReset>
   );
 }

@@ -281,7 +281,7 @@ export default function Home() {
         </div>
       </section>
       </ScrollReveal>
-
+ 
        {/* What Section */}
        <ScrollReveal>
        <section id="what" className="max-w-6xl mx-auto mt-12">

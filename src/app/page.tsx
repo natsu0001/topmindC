@@ -387,16 +387,16 @@ export default function Home() {
             <Image src="/logo.png" alt="Topmind Care Logo" width={32} height={32} />
             <h1 className="text-2xl font-bold text-violet-900">Topmind Care</h1>
           </div>
-          <div className="flex flex-col md:mt-0 items-start">
-            <p className="sm:text-center">Contact</p>
+          <div className="flex flex-col md:mt-0 sm:items-start">
+            <p className="text-center sm:text-left">Contact</p>
             <div className="flex gap-6 mt-4 md:mt-0">
               <a href="#" className="text-purple-500 hover:text-purple-600">Instagram</a>
               <a href="#" className="text-purple-500 hover:text-purple-600">YouTube</a>
               <a href="#" className="text-purple-500 hover:text-purple-600">X</a>
             </div>
           </div>
-          <div className="flex flex-col md:mt-0 items-start">
-            <p className="sm:text-center">Legal</p>
+          <div className="flex flex-col md:mt-0 sm:items-start">
+            <p className="text-center sm:text-left">Legal</p>
             <div className="flex gap-6 mt-4 md:mt-0">
               <a href="#" className="text-purple-500 hover:text-purple-600">Privacy</a>
               <a href="#" className="text-purple-500 hover:text-purple-600">Terms</a>
